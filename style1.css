@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+ol {
+    width: 400px;
+    margin: auto
+}
+li{
+    padding: 15px;
+    list-style-position: inside;
+}
+
+li:first-child {
+    background-color: #000000;
+    color: white
+}
+
+li:nth-child(2) {
+    background-color: silver;
+    color: white;
+}
+
+li:nth-child(3) {
+    background-color: #808080;
+    color: white
+}
+
+li:nth-child(4) {
+    background: #3498db;
+    color: white;
+}
+
+li:nth-child(5) {
+    background-color: #800000;
+    color: white;
+}
+
+li:nth-child(6) {
+    background-color: #FF0000;
+    color: white;
+}
+
+li:nth-child(7) {
+    background-color: #800080;
+    color: white;
+}
+
+li:nth-child(8) {
+    background-color: #FF00FF;
+    color: white;
+}
+
+li:nth-child(9) {
+    background-color: #008000;
+    color: white;
+}
+
+li:nth-child(10) {
+    background-color: #00FF00;
+    color: #000000;
+}
+
+li:nth-child(11) {
+    background-color: #808000;
+    color: #000000;
+}
+
+li:nth-child(12) {
+    background-color: #FFFF00;
+    color: #000000;
+}
+
+li:nth-child(13) {
+    background: #000080;
+    color: white;
+}
+
+li:nth-child(14) {
+    background-color: #0000FF;
+    color: white;
+}
+
+li:nth-child(15) {
+    background-color: #008080;
+    color: white;
+}
+
+li:last-child {
+    background-color: #00FFFF;
+    color: #000000
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#000000
+}
